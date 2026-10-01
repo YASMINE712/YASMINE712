@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Yasmine Yassine. AI, Machine Learning and Software Engineering.">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#19162b"/><stop offset="1" stop-color="#33244f"/></linearGradient><linearGradient id="accent"><stop stop-color="#c8adff"/><stop offset="1" stop-color="#f1b6d2"/></linearGradient></defs>
+<rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+<circle cx="1120" cy="25" r="215" fill="#a886ec" opacity=".06"/><circle cx="1110" cy="25" r="152" fill="none" stroke="#bda0e8" opacity=".13"/>
+<rect x="54" y="53" width="42" height="4" rx="2" fill="#c6abf2"/>
+<g font-family="Segoe UI, Arial, sans-serif"><text x="54" y="88" fill="#c8b9df" font-size="14" letter-spacing="3">HELLO, I'M</text>
+<text x="50" y="169" fill="#faf7ff" font-size="65" font-weight="700" letter-spacing="-2">Yasmine Yassine</text>
+<text x="54" y="217" fill="#d3bafa" font-size="24">AI · Machine Learning · Software Engineering</text>
+<text x="54" y="264" fill="#b9b0c8" font-size="18">From data and models to applications people can use.</text>
+<text x="54" y="320" fill="#968aa9" font-size="13" letter-spacing="2">DIGITAL HEALTH ENGINEERING GRADUATE</text></g>
+<g fill="none" stroke="#ad8fdb" opacity=".55" stroke-width="2"><path d="M872 125L975 82L1090 140L1011 244L873 239Z"/><path d="M872 125L1011 244M975 82L873 239M1090 140L873 239"/></g>
+<g fill="#d7baff" stroke="#352449" stroke-width="7"><circle cx="872" cy="125" r="12"/><circle cx="975" cy="82" r="10"/><circle cx="1090" cy="140" r="15"/><circle cx="1011" cy="244" r="12"/><circle cx="873" cy="239" r="9"/></g><circle cx="969" cy="166" r="31" fill="#30223f" stroke="#ebbd9e" stroke-width="2"/><text x="969" y="173" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="19" fill="#f4d3bc">AI</text>
+</svg>
