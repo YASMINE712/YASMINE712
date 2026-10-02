@@ -1,0 +1,82 @@
+[
+  {
+    "name": "HayatCare",
+    "category": "ai",
+    "label": "AI · Everyday care",
+    "icon": "♡",
+    "text": "A care companion connecting cognitive activities, medication routines, phone motion monitoring, and computer vision.",
+    "tags": [
+      "Python",
+      "Flask",
+      "YOLO",
+      "scikit-learn"
+    ],
+    "detail": "Seven adaptive activities and longitudinal progress analysis, with Isolation Forest learning personal performance patterns. Includes medication reminders and YOLO image detection.",
+    "url": "https://github.com/YASMINE712/HAYAT-CARE",
+    "demo": "https://github.com/YASMINE712/HAYAT-CARE/blob/main/docs/SCREENSHOTS.md"
+  },
+  {
+    "name": "ProCardio",
+    "category": "software",
+    "label": "Software · Computer vision",
+    "icon": "⌘",
+    "text": "A SaaS platform bringing interactive interfaces, workflow automation, and image analysis together.",
+    "tags": [
+      "SaaS",
+      "Deep learning",
+      "Computer vision"
+    ],
+    "detail": "Developed during my final-year internship at Ciprotec. My work included software features, automated pre-filling, and a deep-learning image-analysis module."
+  },
+  {
+    "name": "ClinicalBERT robustness",
+    "category": "ai",
+    "label": "NLP · Model robustness",
+    "icon": "✦",
+    "text": "Exploring how a clinical language model responds to adversarial and backdoor attacks.",
+    "tags": [
+      "Transformers",
+      "NLP",
+      "BioClinicalBERT"
+    ],
+    "detail": "Evaluated BioClinicalBERT robustness against adversarial and backdoor attacks and implemented defense methods."
+  },
+  {
+    "name": "OncoSense",
+    "category": "ai",
+    "label": "Deep learning · Image classification",
+    "icon": "◉",
+    "text": "A computer-vision application for analyzing and classifying images.",
+    "tags": [
+      "Deep learning",
+      "Classification",
+      "Evaluation"
+    ],
+    "detail": "Worked across data preparation, model training, evaluation, and application integration for an image-classification workflow."
+  },
+  {
+    "name": "My Health Friend",
+    "category": "data",
+    "label": "Machine learning · Recommendations",
+    "icon": "↗",
+    "text": "Personalized recommendations built around machine-learning methods.",
+    "tags": [
+      "Machine learning",
+      "Recommendations"
+    ],
+    "detail": "A technical project focused on using machine learning to produce personalized recommendations."
+  },
+  {
+    "name": "Smart Maternity Care",
+    "category": "data",
+    "label": "Data · Predictive modeling",
+    "icon": "◇",
+    "text": "Predictive models built through a structured clinical-data workflow.",
+    "tags": [
+      "Data preparation",
+      "Prediction",
+      "Evaluation"
+    ],
+    "detail": "Prepared clinical data, trained predictive models, and evaluated their performance."
+  }
+]

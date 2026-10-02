@@ -3,6 +3,11 @@
 </p>
 
 <p align="center">
+  <img src="assets/portrait.jpg" alt="Yasmine Yassine" width="160">
+</p>
+
+<p align="center">
+  <a href="https://yasmine712.github.io/YASMINE712/"><strong>Explore my interactive portfolio ↗</strong></a> ·
   <a href="https://www.linkedin.com/in/yasmine-yassine-21ab61285/">LinkedIn</a> ·
   <a href="https://github.com/YASMINE712?tab=repositories">Explore my repositories</a> ·
   <a href="https://github.com/YASMINE712/HAYAT-CARE">Featured: HayatCare</a>
@@ -13,6 +18,8 @@
 I'm **Yasmine**, a Digital Health Engineering graduate from **Mohammed VI University of Sciences and Health**. I work across AI, data, and software development, from preparing datasets and evaluating models to building interactive applications.
 
 I'm particularly interested in **computer vision, language models, and practical ML applications**. I enjoy understanding a user's needs, learning the tools a project requires, and turning an idea into working software.
+
+<p align="center"><a href="#selected-projects">Projects</a> · <a href="#my-toolkit">Skills</a> · <a href="#experience">Experience</a> · <a href="#beyond-the-code">Beyond the code</a></p>
 
 ### Selected projects
 
@@ -26,6 +33,9 @@ I'm particularly interested in **computer vision, language models, and practical
 Other projects include **My Health Friend**, a personalized ML recommendation system, and **Smart Maternity Care**, predictive modeling with clinical data.
 
 ### My toolkit
+
+<details open>
+<summary><strong>Explore the tools I work with</strong></summary>
 
 <p>
 <img src="assets/python.svg" alt="Python" width="120" height="34">
@@ -48,7 +58,12 @@ JavaScript / TypeScript · React · Django · Node.js · Streamlit · SQL · C/C
 **Data & tools**  
 pandas · NumPy · ETL · Spark · Kafka · Airflow · Power BI · AWS · Docker · Git · Linux
 
+</details>
+
 ### Experience
+
+<details>
+<summary><strong>Explore my internships and experience</strong></summary>
 
 - **Ciprotec · Final-year engineering internship · Feb–Jul 2026**  
   Software development, workflow automation, and computer vision for ProCardio.
@@ -56,6 +71,8 @@ pandas · NumPy · ETL · Spark · Kafka · Airflow · Power BI · AWS · Docker
   Deep-learning image classification, from data preparation and training to evaluation and integration.
 - **UM6SS Biomedical Experimentation Center · Jul 2024**  
   Technical observation internship in imaging workflows, 3D modeling, and digital prototyping.
+
+</details>
 
 ### Beyond the code
 
