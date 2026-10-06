@@ -26,7 +26,7 @@ I'm particularly interested in **computer vision, language models, and practical
 | Project | What I worked on |
 | :--- | :--- |
 | **[HayatCare](https://github.com/YASMINE712/HAYAT-CARE)** | An elderly-care application combining adaptive cognitive activities, personal ML progress analysis, medication schedules, phone motion monitoring, and YOLO object detection. |
-| **ProCardio** | A SaaS platform combining interactive interfaces, workflow automation, and a deep-learning module for image analysis. |
+| **[ProCardio](https://github.com/YASMINE712/procardio-showcase)** | A SaaS platform combining interactive interfaces, workflow automation, and a deep-learning module for image analysis. |
 | **ClinicalBERT robustness** | Evaluation of BioClinicalBERT under adversarial and backdoor attacks, with defense methods. |
 | **OncoSense** | A computer-vision application for image analysis and classification using deep learning. |
 
