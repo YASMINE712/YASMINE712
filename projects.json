@@ -1,82 +1,50 @@
 [
   {
-    "name": "HayatCare",
-    "category": "ai",
-    "label": "AI · Everyday care",
-    "icon": "♡",
-    "text": "A care companion connecting cognitive activities, medication routines, phone motion monitoring, and computer vision.",
-    "tags": [
-      "Python",
-      "Flask",
-      "YOLO",
-      "scikit-learn"
-    ],
-    "detail": "Seven adaptive activities and longitudinal progress analysis, with Isolation Forest learning personal performance patterns. Includes medication reminders and YOLO image detection.",
-    "url": "https://github.com/YASMINE712/HAYAT-CARE",
-    "demo": "https://github.com/YASMINE712/HAYAT-CARE/blob/main/docs/SCREENSHOTS.md"
-  },
-  {
     "name": "ProCardio",
     "category": "software",
-    "label": "Software · Computer vision",
-    "icon": "⌘",
-    "text": "A SaaS platform bringing interactive interfaces, workflow automation, and image analysis together.",
-    "tags": [
-      "SaaS",
-      "Deep learning",
-      "Computer vision"
-    ],
-    "detail": "Developed during my final-year internship at Ciprotec. My work included software features, automated pre-filling, and a deep-learning image-analysis module."
-  },
-  {
-    "name": "ClinicalBERT robustness",
-    "category": "ai",
-    "label": "NLP · Model robustness",
-    "icon": "✦",
-    "text": "Exploring how a clinical language model responds to adversarial and backdoor attacks.",
-    "tags": [
-      "Transformers",
-      "NLP",
-      "BioClinicalBERT"
-    ],
-    "detail": "Evaluated BioClinicalBERT robustness against adversarial and backdoor attacks and implemented defense methods."
-  },
-  {
-    "name": "OncoSense",
-    "category": "ai",
-    "label": "Deep learning · Image classification",
-    "icon": "◉",
-    "text": "A computer-vision application for analyzing and classifying images.",
-    "tags": [
-      "Deep learning",
-      "Classification",
-      "Evaluation"
-    ],
-    "detail": "Worked across data preparation, model training, evaluation, and application integration for an image-classification workflow."
+    "label": "Software · Data and computer vision",
+    "image": "assets/projects/procardio-dashboard.png",
+    "alt": "ProCardio dashboard interface",
+    "text": "An internship case study for a multi-tenant cardiology workflow, structured reporting, automation, and reviewed image-analysis suggestions.",
+    "tags": ["Python", "Django", "React", "Computer vision"],
+    "detail": "The public case study documents authenticated, hospital-scoped workflows, reporting automation, an OCR and retrieval-assisted document path, and reviewable computer-vision suggestions. The private source code, datasets, and weights remain restricted.",
+    "url": "https://github.com/YASMINE712/procardio-showcase",
+    "demo": "https://github.com/YASMINE712/procardio-showcase/blob/main/docs/interface-gallery.md"
   },
   {
     "name": "My Health Friend",
     "category": "data",
-    "label": "Machine learning · Recommendations",
-    "icon": "↗",
-    "text": "Personalized recommendations built around machine-learning methods.",
-    "tags": [
-      "Machine learning",
-      "Recommendations"
-    ],
-    "detail": "A technical project focused on using machine learning to produce personalized recommendations."
+    "label": "Machine learning · Data pipeline",
+    "image": "assets/projects/my-health-friend-ml.png",
+    "alt": "My Health Friend machine-learning prediction screen",
+    "text": "A Flask learning application with participant-aware data preparation, activity prediction, evaluation reports, and a separate contextual-bandit simulation.",
+    "tags": ["Python", "Flask", "scikit-learn", "Pandas"],
+    "detail": "The repository implements dataset checks, participant-separated splits, preprocessing fitted on training data, Ridge and Random Forest comparisons, ROC/PR/calibration figures, and a bounded simulation benchmark. It is an educational prototype, not a clinical tool.",
+    "url": "https://github.com/YASMINE712/patient-engagement-system",
+    "demo": "https://github.com/YASMINE712/patient-engagement-system/blob/main/docs/report/screenshots/README.md"
   },
   {
-    "name": "Smart Maternity Care",
-    "category": "data",
-    "label": "Data · Predictive modeling",
-    "icon": "◇",
-    "text": "Predictive models built through a structured clinical-data workflow.",
-    "tags": [
-      "Data preparation",
-      "Prediction",
-      "Evaluation"
-    ],
-    "detail": "Prepared clinical data, trained predictive models, and evaluated their performance."
+    "name": "MedRec CareFlow",
+    "category": "software",
+    "label": "Full-stack · ML workflow",
+    "image": "assets/projects/medrec-clinician.png",
+    "alt": "MedRec CareFlow clinician workspace",
+    "text": "A Flask workflow demo for patient check-ins and clinician review, with field encryption, role controls, a reproducible ML fixture, and automated delivery checks.",
+    "tags": ["Python", "Flask", "scikit-learn", "Docker"],
+    "detail": "The code includes authentication, role-aware routes, CSRF and rate-limit protection, encrypted fields, report generation, a Logistic Regression baseline, tests, GitHub Actions, and a GHCR container build workflow.",
+    "url": "https://github.com/YASMINE712/medrec-careflow",
+    "demo": "https://github.com/YASMINE712/medrec-careflow#what-it-demonstrates"
+  },
+  {
+    "name": "HayatCare",
+    "category": "ai",
+    "label": "AI · Computer vision",
+    "image": "assets/projects/hayatcare-yolo.png",
+    "alt": "HayatCare object-detection screen",
+    "text": "A care-companion prototype combining computer vision, an LLM-backed information assistant, local persistence, adaptive activities, reminders, and phone-motion handling.",
+    "tags": ["Python", "Flask", "YOLO", "scikit-learn"],
+    "detail": "The public code includes optional YOLOv8 object detection through an image-upload flow, Gemini API calls with a constrained prompt, Flask routes, SQLite storage, scheduled reminder logic, and research-model adapters. It explicitly labels its health features as demonstrations rather than clinical tools.",
+    "url": "https://github.com/YASMINE712/HAYAT-CARE",
+    "demo": "https://github.com/YASMINE712/HAYAT-CARE/blob/main/docs/SCREENSHOTS.md"
   }
 ]

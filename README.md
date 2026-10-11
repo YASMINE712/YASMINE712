@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Yasmine Yassine — AI, Machine Learning and Software Engineering" width="100%">
+  <img src="assets/banner.svg" alt="Yasmine Yassine — AI, data, and software engineering" width="100%">
 </p>
 
 <p align="center">
@@ -7,77 +7,36 @@
 </p>
 
 <p align="center">
-  <a href="https://yasmine712.github.io/YASMINE712/"><strong>Explore my interactive portfolio ↗</strong></a> ·
+  <a href="https://yasmine712.github.io/YASMINE712/"><strong>Get to know me and explore my portfolio</strong></a> ·
   <a href="https://www.linkedin.com/in/yasmine-yassine-21ab61285/">LinkedIn</a> ·
-  <a href="https://github.com/YASMINE712?tab=repositories">Explore my repositories</a> ·
-  <a href="https://github.com/YASMINE712/HAYAT-CARE">Featured: HayatCare</a>
+  <a href="https://github.com/YASMINE712?tab=repositories">Repositories</a>
 </p>
 
-### A little about me
+## Get to know me
 
-I'm **Yasmine**, a Digital Health Engineering graduate from **Mohammed VI University of Sciences and Health**. I work across AI, data, and software development, from preparing datasets and evaluating models to building interactive applications.
+I am a recent Digital Health Engineering graduate focused on AI, data, and software engineering. I enjoy turning a concrete workflow into working software: preparing data, training and evaluating a model, then integrating it into an application that people can use.
 
-I'm particularly interested in **computer vision, language models, and practical ML applications**. I enjoy understanding a user's needs, learning the tools a project requires, and turning an idea into working software.
+## Selected public projects
 
-<p align="center"><a href="#selected-projects">Projects</a> · <a href="#my-toolkit">Skills</a> · <a href="#experience">Experience</a> · <a href="#beyond-the-code">Beyond the code</a></p>
-
-### Selected projects
-
-| Project | What I worked on |
+| Project | Verified public evidence |
 | :--- | :--- |
-| **[HayatCare](https://github.com/YASMINE712/HAYAT-CARE)** | An elderly-care application combining adaptive cognitive activities, personal ML progress analysis, medication schedules, phone motion monitoring, and YOLO object detection. |
-| **[ProCardio](https://github.com/YASMINE712/procardio-showcase)** | A SaaS platform combining interactive interfaces, workflow automation, and a deep-learning module for image analysis. |
-| **ClinicalBERT robustness** | Evaluation of BioClinicalBERT under adversarial and backdoor attacks, with defense methods. |
-| **OncoSense** | A computer-vision application for image analysis and classification using deep learning. |
+| **[ProCardio](https://github.com/YASMINE712/procardio-showcase)** | Public engineering case study for a multi-tenant cardiology workflow, document processing and retrieval-assisted assistance, reporting automation, and reviewed computer-vision suggestions. The source remains private. |
+| **[My Health Friend](https://github.com/YASMINE712/patient-engagement-system)** | Flask and scikit-learn project with participant-aware data preparation, Random Forest and Ridge baselines, evaluation figures, and contextual-bandit simulation. |
+| **[MedRec CareFlow](https://github.com/YASMINE712/medrec-careflow)** | Flask workflow application with authenticated roles, encrypted fields, ML fixture training, tests, Docker, and GitHub Actions delivery checks. |
+| **[HayatCare](https://github.com/YASMINE712/HAYAT-CARE)** | Flask prototype with optional YOLOv8 detection, Gemini API integration, local persistence, reminders, and research-model demonstrations. |
 
-Other projects include **My Health Friend**, a personalized ML recommendation system, and **Smart Maternity Care**, predictive modeling with clinical data.
+## Demonstrated toolkit
 
-### My toolkit
+**Python and data:** Python · Pandas · NumPy · scikit-learn · SQLite · CSV/data validation
 
-<details open>
-<summary><strong>Explore the tools I work with</strong></summary>
+**AI and ML:** PyTorch and Torchvision · YOLOv8 · transfer learning · Logistic Regression · Random Forest · Ridge · model evaluation · image processing
 
-<p>
-<img src="assets/python.svg" alt="Python" width="120" height="34">
-<img src="assets/pytorch.svg" alt="PyTorch" width="120" height="34">
-<img src="assets/tensorflow.svg" alt="TensorFlow" width="120" height="34">
-<img src="assets/sklearn.svg" alt="scikit-learn" width="120" height="34">
-<img src="assets/huggingface.svg" alt="Hugging Face" width="120" height="34">
-<img src="assets/react.svg" alt="React" width="120" height="34">
-<img src="assets/sql.svg" alt="SQL" width="120" height="34">
-<img src="assets/docker.svg" alt="Docker" width="120" height="34">
-</p>
+**Software delivery:** Flask · HTML/CSS/JavaScript · Docker · Git/GitHub · GitHub Actions · automated tests · report generation
 
-**AI & machine learning**  
-Python · PyTorch · TensorFlow / Keras · scikit-learn · Hugging Face · OpenCV  
-Computer vision · CNNs · Transformers · NLP · LLMs · Model evaluation
+## Experience
 
-**Software development**  
-JavaScript / TypeScript · React · Django · Node.js · Streamlit · SQL · C/C++ · APIs
+- **Ciprotec · Final-year engineering internship · Feb–Jul 2026** — contributed to software development, workflow automation, and computer vision for ProCardio.
+- **Cheikh Khalifa International University Hospital · Jul–Aug 2025** — worked on deep-learning image-classification activities covering data preparation, training, evaluation, and integration.
+- **UM6SS Biomedical Experimentation Center · Jul 2024** — technical observation internship in imaging workflows, 3D modeling, and digital prototyping.
 
-**Data & tools**  
-pandas · NumPy · ETL · Spark · Kafka · Airflow · Power BI · AWS · Docker · Git · Linux
-
-</details>
-
-### Experience
-
-<details>
-<summary><strong>Explore my internships and experience</strong></summary>
-
-- **Ciprotec · Final-year engineering internship · Feb–Jul 2026**  
-  Software development, workflow automation, and computer vision for ProCardio.
-- **Cheikh Khalifa International University Hospital · Jul–Aug 2025**  
-  Deep-learning image classification, from data preparation and training to evaluation and integration.
-- **UM6SS Biomedical Experimentation Center · Jul 2024**  
-  Technical observation internship in imaging workflows, 3D modeling, and digital prototyping.
-
-</details>
-
-### Beyond the code
-
-I enjoy learning languages, cooking, and discovering new cultures. I speak **Arabic, English, and French**, with conversational **Turkish** and **German at A2 level**.
-
----
-
-**Let's connect:** [Find me on LinkedIn](https://www.linkedin.com/in/yasmine-yassine-21ab61285/).
+I work in French and English, and I am looking for junior opportunities where AI, data preparation, and practical software engineering meet.
