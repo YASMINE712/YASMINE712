@@ -20,6 +20,7 @@ I am a recent Digital Health Engineering graduate focused on AI, data, and softw
 
 | Project | Verified public evidence |
 | :--- | :--- |
+| **[OncoSense](https://github.com/YASMINE712/OncoSense)** | Breast-cancer computer-vision case study with image-manifest preparation, CNN classifier candidates, lesion localisation, augmentation and contextual crops. Private internship code, data and weights are excluded. |
 | **[ProCardio](https://github.com/YASMINE712/procardio-showcase)** | Public engineering case study for a multi-tenant cardiology workflow, document processing and retrieval-assisted assistance, reporting automation, and reviewed computer-vision suggestions. The source remains private. |
 | **[My Health Friend](https://github.com/YASMINE712/patient-engagement-system)** | Flask and scikit-learn project with participant-aware data preparation, Random Forest and Ridge baselines, evaluation figures, and contextual-bandit simulation. |
 | **[MedRec CareFlow](https://github.com/YASMINE712/medrec-careflow)** | Flask workflow application with authenticated roles, encrypted fields, ML fixture training, tests, Docker, and GitHub Actions delivery checks. |

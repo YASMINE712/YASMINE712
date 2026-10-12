@@ -1,5 +1,17 @@
 [
   {
+    "name": "OncoSense",
+    "category": "ai",
+    "label": "Breast cancer · Computer vision",
+    "image": "assets/projects/oncosense-architecture.png",
+    "alt": "OncoSense classification and lesion-localisation architecture",
+    "text": "An internship computer-vision showcase covering image manifests, CNN classification, lesion localisation and contextual crop preparation.",
+    "tags": ["Python", "PyTorch", "Torchvision", "Data preparation"],
+    "detail": "The public case study explains ResNet50, VGG16 and DenseNet121 classifier candidates, Faster R-CNN with ResNet50-FPN, mask-derived boxes, target-aware flips, contextual crops and training metrics. The gallery includes the architecture and an existing exploratory training curve. Internship source, images, annotations and weights remain private.",
+    "url": "https://github.com/YASMINE712/OncoSense",
+    "demo": "https://github.com/YASMINE712/OncoSense/blob/main/docs/gallery.md"
+  },
+  {
     "name": "ProCardio",
     "category": "software",
     "label": "Software · Data and computer vision",
