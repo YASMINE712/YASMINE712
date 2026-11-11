@@ -3,49 +3,258 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Yasmine Yassine, junior AI, data and software engineer. Public portfolio built from verified GitHub projects.">
-  <meta name="theme-color" content="#211b30">
-  <title>Yasmine Yassine | AI, Data and Software</title>
-  <link rel="icon" href="assets/python.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="portfolio.css">
-  <script src="portfolio.js" defer></script>
+  <meta name="description" content="Yasmine Yassine's portfolio in AI, data and software engineering. Explore project case studies, technologies, and potential impact.">
+  <meta name="theme-color" content="#f7f5ee">
+  <title>Yasmine Yassine | AI, Data &amp; Software Engineering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css?v=2">
+  <script src="portfolio.js?v=2" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header>
-    <a class="brand" href="#home">Y<span>.</span>Y</a>
-    <nav aria-label="Main navigation">
-      <a href="#projects">Projects</a>
-      <a href="#about">Get to know me</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Connect</a>
-    </nav>
-    <button id="theme" aria-label="Switch color theme" title="Change color theme">Theme</button>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#home">Yasmine Yassine</a>
+      <nav aria-label="Main navigation">
+        <a href="#projects">Work</a>
+        <a href="#about">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="theme" type="button" hidden>Dark mode</button>
+    </div>
   </header>
-  <main id="main">
-    <section class="hero" id="home">
+
+  <main id="main" tabindex="-1">
+    <section class="hero container" id="home" aria-labelledby="name">
       <div class="hero-copy">
-        <p class="eyebrow">AI | DATA | SOFTWARE</p>
-        <h1>Hi, I'm Yasmine.<br>I build <em>practical solutions.</em></h1>
-        <p class="intro">Recent State Engineer graduate working across data preparation, machine learning evaluation and Python web applications.</p>
-        <div class="actions"><a class="button" href="#projects">Explore my work</a><a class="text-link" href="https://www.linkedin.com/in/yasmine-yassine-21ab61285/">Connect on LinkedIn</a></div>
-        <div class="hero-bottom"><span class="dot"></span> Curious, careful and practical.</div>
+        <p class="kicker">AI, Data &amp; Software Engineering</p>
+        <h1 id="name">Yasmine Yassine</h1>
+        <p class="hero-lead">I build data pipelines, evaluate machine learning models, and integrate them into applications.</p>
+        <p class="hero-note">I’m passionate about the potential of human-centered AI in healthcare. I want to build tools that make clinical information easier to find and give clinicians more time with patients.</p>
+        <div class="actions">
+          <a class="button" href="#projects">Explore my work <span aria-hidden="true">&darr;</span></a>
+          <a class="quiet-link" href="https://www.linkedin.com/in/yasmine-yassine-21ab61285/">Connect on LinkedIn</a>
+        </div>
       </div>
-      <div class="portrait-wrap"><div class="orbit" aria-hidden="true"></div><img class="portrait" src="assets/portrait.jpg" alt="Yasmine Yassine" width="2518" height="2590" fetchpriority="high"><div class="portrait-label"><span>ENGINEERING WITH PURPOSE</span><strong>Data, models and useful software.</strong></div></div>
+      <figure class="hero-portrait">
+        <img src="assets/portrait.jpg" alt="Portrait of Yasmine Yassine" width="2518" height="2590" fetchpriority="high">
+        <figcaption>Casablanca, Morocco</figcaption>
+      </figure>
     </section>
-    <div class="interests" aria-label="Areas of interest"><span>Computer vision</span><span>Machine learning</span><span>Data preparation</span><span>Python applications</span><span>Evaluation</span></div>
-    <section class="projects" id="projects">
-      <div class="section-head"><div><p class="eyebrow">01 / SELECTED WORK</p><h2>Verified public projects.</h2></div><p id="project-count" aria-live="polite"></p></div>
-      <div id="filters" class="filters" aria-label="Filter projects"></div><div id="project-grid" class="project-grid" aria-live="polite"></div>
+
+    <section class="container work" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <h2 id="projects-title">Selected work</h2>
+        <nav class="project-index" aria-label="Jump to a project">
+          <a href="#procardio">ProCardio</a>
+          <a href="#oncosense">OncoSense</a>
+          <a href="#medrec-careflow">MedRec CareFlow</a>
+          <a href="#my-health-friend">My Health Friend</a>
+          <a href="#hayatcare">HayatCare</a>
+        </nav>
+      </div>
+
+      <article class="flagship" id="procardio" aria-labelledby="procardio-title">
+        <div class="flagship-top">
+          <div>
+            <p class="kicker">ProCardio / Final-year internship at Ciprotec</p>
+            <h3 id="procardio-title">From procedure notes to review-ready reports.</h3>
+            <p>Interventional cardiology teams record information throughout a procedure. When those details sit in different tools or formats, teams have to pull them together again for reporting.</p>
+          </div>
+          <figure class="project-visual flagship-visual">
+            <img src="assets/projects/procardio-dashboard.png" alt="ProCardio hospital dashboard with activity and report review queues" width="2560" height="1600" loading="lazy">
+            <figcaption>Hospital dashboard with demonstration data</figcaption>
+          </figure>
+        </div>
+
+        <div class="flagship-details">
+          <div class="flagship-story">
+            <h4>What I built</h4>
+            <p>I translated workflow requirements into a hospital-scoped web platform. I prepared imaging data, evaluated and integrated computer vision suggestions, and worked on document retrieval and report generation. Clinicians can accept, edit or reject suggested entries.</p>
+          </div>
+          <div class="flagship-story">
+            <h4>Potential impact</h4>
+            <p>Reusing structured entries could reduce repeated documentation and make reports easier to review. Shared defaults and hospital-specific settings let the same application adapt to local workflows.</p>
+          </div>
+        </div>
+
+        <div class="flagship-engineering" aria-label="ProCardio engineering evidence">
+          <div>
+            <h4>Multi-tenant software</h4>
+            <p>React, TypeScript, Django REST Framework and PostgreSQL for role-aware workflows and hospital-scoped data.</p>
+            <a href="https://github.com/YASMINE712/procardio-showcase/blob/main/docs/multi-tenant-design.md">See the tenancy design</a>
+          </div>
+          <div>
+            <h4>Data pipelines and computer vision</h4>
+            <p>Imaging ETL, augmentation and segmentation experiments with PyTorch, Ultralytics YOLO and OpenCV.</p>
+            <a href="https://github.com/YASMINE712/procardio-showcase/blob/main/docs/deep-learning-evaluation.md">Read the model evaluation</a>
+          </div>
+          <div>
+            <h4>Retrieval and delivery</h4>
+            <p>PDF extraction and OCR feed retrieval with source citations and optional Ollama generation. Docker Compose packages the app. GitHub Actions checks the public showcase.</p>
+            <a href="https://github.com/YASMINE712/procardio-showcase/blob/main/docs/rag-and-automation.md">Trace the document workflow</a>
+          </div>
+        </div>
+        <a class="button button-inverse" href="https://github.com/YASMINE712/procardio-showcase">Read the ProCardio case study <span aria-hidden="true">&nearr;</span></a>
+      </article>
+
+      <div class="case-grid">
+        <article class="case" id="oncosense" aria-labelledby="oncosense-title">
+          <figure class="project-visual">
+            <img class="diagram" src="assets/projects/oncosense-architecture.png" alt="OncoSense diagram showing image preparation, classification, and lesion localization paths" width="1600" height="900" loading="lazy">
+          </figure>
+          <div class="case-body">
+            <p class="kicker">OncoSense / Computer vision research</p>
+            <h3 id="oncosense-title">Make breast imaging experiments traceable.</h3>
+            <p class="case-problem">Testing full mammograms against lesion-focused views requires reliable labels, crops and experiment inputs.</p>
+            <dl class="pitch">
+              <div><dt>What I built</dt><dd>I turned image metadata and lesion masks into model-ready inputs, evaluated CNN classifiers, and explored lesion localization with Faster R-CNN.</dd></div>
+              <div><dt>Potential impact</dt><dd>A traceable pipeline helps researchers compare image and crop strategies and see how each result was produced.</dd></div>
+            </dl>
+            <ul class="stack" aria-label="Technologies used">
+              <li>Python</li><li>PyTorch</li><li>Torchvision</li><li>Pandas</li><li>OpenCV</li>
+            </ul>
+            <div class="case-links">
+              <a href="https://github.com/YASMINE712/OncoSense">Read the case study <span aria-hidden="true">&nearr;</span></a>
+              <a href="https://github.com/YASMINE712/OncoSense/blob/main/docs/technical-overview.md">Technical overview</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="case" id="medrec-careflow" aria-labelledby="medrec-title">
+          <figure class="project-visual">
+            <img src="assets/projects/medrec-clinician.png" alt="MedRec CareFlow clinician workspace for reviewing check-ins with fictional demo data" width="1440" height="1050" loading="lazy">
+          </figure>
+          <div class="case-body">
+            <p class="kicker">MedRec CareFlow / Full-stack and delivery</p>
+            <h3 id="medrec-title">Give every patient check-in a review path.</h3>
+            <p class="case-problem">A submitted check-in needs a clear route to clinician review and documented follow-up.</p>
+            <dl class="pitch">
+              <div><dt>What I built</dt><dd>A synthetic-data demo with role and record ownership checks, encrypted fields, a reproducible Logistic Regression baseline, and PDF export. GitHub Actions runs tests and builds a Docker image.</dd></div>
+              <div><dt>Potential impact</dt><dd>A single submission-to-review workflow could make handoffs clearer and help teams see what still needs follow-up.</dd></div>
+            </dl>
+            <ul class="stack" aria-label="Technologies used">
+              <li>Flask</li><li>SQLAlchemy</li><li>Fernet</li><li>scikit-learn</li><li>Docker</li><li>GitHub Actions</li>
+            </ul>
+            <div class="case-links">
+              <a href="https://github.com/YASMINE712/medrec-careflow">Explore the code <span aria-hidden="true">&nearr;</span></a>
+              <a href="https://github.com/YASMINE712/medrec-careflow#containers-and-cicd">Delivery workflow</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="case" id="my-health-friend" aria-labelledby="my-health-friend-title">
+          <figure class="project-visual">
+            <img src="assets/projects/my-health-friend-ml.png" alt="My Health Friend activity prediction interface with example inputs" width="1132" height="635" loading="lazy">
+          </figure>
+          <div class="case-body">
+            <p class="kicker">My Health Friend / Machine learning and data</p>
+            <h3 id="my-health-friend-title">Test personalization before rollout.</h3>
+            <p class="case-problem">A wellness suggestion is easier to act on when it fits someone’s schedule and preferences.</p>
+            <dl class="pitch">
+              <div><dt>What I built</dt><dd>Our team built a Flask planner and an activity-prediction pipeline with participant-separated evaluation. A separate contextual-bandit simulation tests how recommendations adapt to feedback.</dd></div>
+              <div><dt>Evaluation</dt><dd>The Random Forest activity classifier reached 0.731 ROC-AUC on a test split with six held-out participants.</dd></div>
+              <div><dt>Potential impact</dt><dd>Participant-level evaluation and simulation give teams a way to assess personalization ideas before testing them with users.</dd></div>
+            </dl>
+            <ul class="stack" aria-label="Technologies used">
+              <li>Flask</li><li>Pandas</li><li>scikit-learn</li><li>Random Forest</li><li>SQLite</li>
+            </ul>
+            <div class="case-links">
+              <a href="https://github.com/YASMINE712/patient-engagement-system">Explore the code <span aria-hidden="true">&nearr;</span></a>
+              <a href="https://github.com/YASMINE712/patient-engagement-system/blob/main/docs/results/HEARTSTEPS_CLASSIFIER.md">Evaluation results</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="case" id="hayatcare" aria-labelledby="hayatcare-title">
+          <figure class="project-visual">
+            <img class="daily-care" src="assets/projects/hayatcare-daily-care.png" alt="HayatCare demo dashboard with activities, medication reminders and progress tracking" width="1440" height="1060" loading="lazy">
+          </figure>
+          <div class="case-body">
+            <p class="kicker">HayatCare / Applied AI prototype</p>
+            <h3 id="hayatcare-title">Make everyday routines easier to manage.</h3>
+            <p class="case-problem">Older adults and caregivers may track reminders, activities and progress across several tools.</p>
+            <dl class="pitch">
+              <div><dt>What I built</dt><dd>A daily-care prototype with reminders, adaptive activities and optional caregiver notifications via Twilio WhatsApp. It also includes a Gemini information assistant and YOLOv8 object detection on uploaded photos.</dd></div>
+              <div><dt>Potential impact</dt><dd>Bringing these features together could make routines easier to organize and give caregivers a starting point for follow-up.</dd></div>
+            </dl>
+            <ul class="stack" aria-label="Technologies used">
+              <li>Flask</li><li>SQLite</li><li>scikit-learn</li><li>Gemini API</li><li>YOLOv8</li><li>Twilio</li>
+            </ul>
+            <div class="case-links">
+              <a href="https://github.com/YASMINE712/HAYAT-CARE">Explore the code <span aria-hidden="true">&nearr;</span></a>
+              <a href="https://github.com/YASMINE712/HAYAT-CARE/blob/main/docs/SCREENSHOTS.md">Prototype screens</a>
+            </div>
+          </div>
+        </article>
+      </div>
     </section>
-    <section class="about" id="about">
-      <div class="about-title"><p class="eyebrow">02 / GET TO KNOW ME</p><h2>Building from evidence.</h2></div>
-      <div class="about-copy"><p>I am an early-career engineer interested in the path from a business need to prepared data, an evaluated model and an understandable application.</p><p>This portfolio presents projects whose public repositories provide code or clearly labelled documentation. Clinical data, private internship source code and model weights are not published here.</p><div class="toolkit"><span>Python</span><span>Flask</span><span>scikit-learn</span><span>Pandas</span><span>NumPy</span><span>SQLite</span><span>YOLOv8</span><span>OpenCV</span><span>Docker</span><span>GitHub Actions</span></div></div>
+
+    <section class="skills-section container" id="about" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills in practice</h2>
+      <div class="skills-grid">
+        <article>
+          <h3>AI &amp; evaluation</h3>
+          <p>Train and evaluate computer vision models, inspect validation results, and integrate model output into workflows with human review.</p>
+          <a href="#oncosense">See OncoSense</a>
+        </article>
+        <article>
+          <h3>Data &amp; ETL</h3>
+          <p>Validate inputs, build reproducible preprocessing, and split datasets by participant to keep training and test data independent at the participant level.</p>
+          <a href="#my-health-friend">See My Health Friend</a>
+        </article>
+        <article>
+          <h3>Software &amp; delivery</h3>
+          <p>Build role-aware applications, connect data to user workflows, and use automated tests and containers to make delivery repeatable.</p>
+          <a href="#medrec-careflow">See MedRec CareFlow</a>
+        </article>
+      </div>
     </section>
-    <section class="experience" id="experience"><div class="section-head"><div><p class="eyebrow">03 / EXPERIENCE</p><h2>Learning through delivery.</h2></div></div><div class="timeline"><article><p class="timeline-date">2025</p><div><h3>Engineering internship projects</h3><p>Worked on data, machine-learning and software-oriented internship deliverables. Public case studies omit restricted source code, clinical data and model weights.</p></div></article><article><p class="timeline-date">2025</p><div><h3>State Engineer graduate</h3><p>Engineering education with a focus on building and assessing data-driven software systems.</p></div></article></div></section>
-    <section class="contact" id="contact"><p class="eyebrow">04 / CONTACT</p><h2>Let's discuss an opportunity.</h2><a class="button" href="mailto:yasmineyassine45@gmail.com">Email me</a><a class="text-link" href="https://github.com/YASMINE712">GitHub profile</a></section>
+
+    <section class="experience container" id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience &amp; education</h2>
+      <div class="timeline">
+        <article>
+          <p class="kicker">Feb–Jul 2026</p>
+          <div><h3>Ciprotec</h3><p>Final-year engineering internship in software, AI and computer vision. Turned workflow requirements into ProCardio features and worked on imaging, reporting and functional testing.</p></div>
+        </article>
+        <article>
+          <p class="kicker">Jul–Aug 2025</p>
+          <div><h3>Cheikh Khalifa International University Hospital</h3><p>AI and digital solutions internship covering imaging data preparation, model training and evaluation, result presentation and integration.</p></div>
+        </article>
+        <article>
+          <p class="kicker">Jul 2024</p>
+          <div><h3>UM6SS Biomedical Experimentation Center</h3><p>Technical internship in imaging data processing, 3D reconstruction and prototyping.</p></div>
+        </article>
+        <article>
+          <p class="kicker">2023–2026</p>
+          <div><h3>ESM6ISS – UM6SS</h3><p>State Engineering Degree in Digital Engineering, Casablanca.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <div>
+          <h2 id="contact-title">Let’s work together.</h2>
+          <p>I’m looking for early-career roles in AI, data and software engineering.</p>
+        </div>
+        <div class="actions">
+          <a class="button" href="mailto:yasmineyassine45@gmail.com">Email me</a>
+          <a class="quiet-link" href="https://www.linkedin.com/in/yasmine-yassine-21ab61285/">LinkedIn</a>
+          <a class="quiet-link" href="https://github.com/YASMINE712">GitHub</a>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer><span>Yasmine Yassine</span><span>AI | Data | Software</span></footer>
-  <dialog id="project-dialog"><button id="dialog-close" aria-label="Close project details">Close</button><div id="dialog-content"></div></dialog>
+
+  <footer class="container site-footer">
+    <span>Yasmine Yassine</span>
+    <a href="#home">Back to top <span aria-hidden="true">&uarr;</span></a>
+  </footer>
 </body>
 </html>
