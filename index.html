@@ -9,8 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="portfolio.css?v=3">
-  <script src="portfolio.js?v=3" defer></script>
+  <link rel="stylesheet" href="portfolio.css?v=4">
+  <script src="portfolio.js?v=4" defer></script>
+  <script src="gallery.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -22,7 +23,8 @@
         <a href="#projects">Work</a>
         <a href="#about">Skills</a>
         <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
+        <a href="#education">Education</a>
+        <a class="nav-contact" href="#contact">Contact</a>
       </nav>
       <button class="theme-toggle" id="theme" type="button" hidden>Dark mode</button>
     </div>
@@ -58,7 +60,17 @@
         </nav>
       </div>
 
-      <article class="flagship" id="procardio" aria-labelledby="procardio-title">
+      <div class="work-toolbar" id="project-filters" hidden>
+        <div class="project-filters" role="group" aria-label="Filter projects by skill">
+          <button type="button" data-project-filter="all" aria-pressed="true">All projects</button>
+          <button type="button" data-project-filter="ai" aria-pressed="false">AI &amp; evaluation</button>
+          <button type="button" data-project-filter="data" aria-pressed="false">Data pipelines</button>
+          <button type="button" data-project-filter="software" aria-pressed="false">Full-stack software</button>
+        </div>
+        <p class="project-count" id="project-count" role="status"></p>
+      </div>
+
+      <article class="flagship" id="procardio" data-project-topics="ai data software" aria-labelledby="procardio-title">
         <div class="flagship-top">
           <div>
             <p class="kicker">ProCardio / Final-year internship at Ciprotec</p>
@@ -66,8 +78,9 @@
             <p>Interventional cardiology teams record information throughout a procedure. When those details sit in different tools or formats, teams have to pull them together again for reporting.</p>
           </div>
           <figure class="project-visual flagship-visual">
-            <a class="image-link" href="assets/projects/procardio-dashboard.png" aria-label="Open full-size ProCardio dashboard">
+            <a class="image-link" href="assets/projects/procardio-dashboard.png" aria-label="View ProCardio dashboard image">
               <img src="assets/projects/procardio-dashboard.png" alt="ProCardio hospital dashboard with activity and report review queues" width="2560" height="1600" loading="lazy">
+              <span class="image-action" aria-hidden="true">View gallery <span>&nearr;</span></span>
             </a>
             <figcaption>Hospital dashboard with demonstration data</figcaption>
           </figure>
@@ -129,7 +142,11 @@
       </article>
 
       <div class="case-grid">
-        <article class="case" id="oncosense" aria-labelledby="oncosense-title">
+        <article class="case" id="oncosense" data-project-topics="ai data" aria-labelledby="oncosense-title">
+          <div class="case-heading">
+            <p class="kicker">OncoSense / Computer vision research</p>
+            <h3 id="oncosense-title">Make breast imaging experiments traceable.</h3>
+          </div>
           <div class="case-gallery" role="group" aria-label="OncoSense gallery">
             <figure class="project-visual">
               <a class="image-link" href="assets/projects/oncosense-architecture.png" aria-label="Open full-size OncoSense visual: Vision pipeline architecture">
@@ -145,8 +162,6 @@
             </figure>
           </div>
           <div class="case-body">
-            <p class="kicker">OncoSense / Computer vision research</p>
-            <h3 id="oncosense-title">Make breast imaging experiments traceable.</h3>
             <p class="case-problem">Testing full mammograms against lesion-focused views requires reliable labels, crops and experiment inputs.</p>
             <dl class="pitch">
               <div><dt>What I built</dt><dd>I turned image metadata and lesion masks into model-ready inputs, evaluated CNN classifiers, and explored lesion localization with Faster R-CNN.</dd></div>
@@ -162,7 +177,11 @@
           </div>
         </article>
 
-        <article class="case" id="medrec-careflow" aria-labelledby="medrec-title">
+        <article class="case" id="medrec-careflow" data-project-topics="software" aria-labelledby="medrec-title">
+          <div class="case-heading">
+            <p class="kicker">MedRec CareFlow / Full-stack and delivery</p>
+            <h3 id="medrec-title">Give every patient check-in a review path.</h3>
+          </div>
           <div class="case-gallery" role="group" aria-label="MedRec CareFlow gallery">
             <figure class="project-visual">
               <a class="image-link" href="assets/projects/medrec-clinician.png" aria-label="Open full-size MedRec CareFlow visual: Clinician review queue">
@@ -178,8 +197,6 @@
             </figure>
           </div>
           <div class="case-body">
-            <p class="kicker">MedRec CareFlow / Full-stack and delivery</p>
-            <h3 id="medrec-title">Give every patient check-in a review path.</h3>
             <p class="case-problem">A submitted check-in needs a clear route to clinician review and documented follow-up.</p>
             <dl class="pitch">
               <div><dt>What I built</dt><dd>A synthetic-data demo with role and record ownership checks, encrypted fields, a reproducible Logistic Regression baseline, and PDF export. GitHub Actions runs tests and builds a Docker image.</dd></div>
@@ -195,7 +212,11 @@
           </div>
         </article>
 
-        <article class="case" id="my-health-friend" aria-labelledby="my-health-friend-title">
+        <article class="case" id="my-health-friend" data-project-topics="ai data" aria-labelledby="my-health-friend-title">
+          <div class="case-heading">
+            <p class="kicker">My Health Friend / Machine learning and data</p>
+            <h3 id="my-health-friend-title">Test personalization before rollout.</h3>
+          </div>
           <div class="case-gallery" role="group" aria-label="My Health Friend gallery">
             <figure class="project-visual">
               <a class="image-link" href="assets/projects/my-health-friend-ml.png" aria-label="Open full-size My Health Friend visual: Activity prediction demo">
@@ -211,8 +232,6 @@
             </figure>
           </div>
           <div class="case-body">
-            <p class="kicker">My Health Friend / Machine learning and data</p>
-            <h3 id="my-health-friend-title">Test personalization before rollout.</h3>
             <p class="case-problem">A wellness suggestion is easier to act on when it fits someone’s schedule and preferences.</p>
             <dl class="pitch">
               <div><dt>What I built</dt><dd>Our team built a Flask planner and an activity-prediction pipeline with participant-separated evaluation. A separate contextual-bandit simulation tests how recommendations adapt to feedback.</dd></div>
@@ -229,7 +248,11 @@
           </div>
         </article>
 
-        <article class="case" id="hayatcare" aria-labelledby="hayatcare-title">
+        <article class="case" id="hayatcare" data-project-topics="ai software" aria-labelledby="hayatcare-title">
+          <div class="case-heading">
+            <p class="kicker">HayatCare / Applied AI prototype</p>
+            <h3 id="hayatcare-title">Make everyday routines easier to manage.</h3>
+          </div>
           <div class="case-gallery" role="group" aria-label="HayatCare gallery">
             <figure class="project-visual">
               <a class="image-link" href="assets/projects/hayatcare-daily-care.png" aria-label="Open full-size HayatCare visual: Daily care dashboard">
@@ -245,8 +268,6 @@
             </figure>
           </div>
           <div class="case-body">
-            <p class="kicker">HayatCare / Applied AI prototype</p>
-            <h3 id="hayatcare-title">Make everyday routines easier to manage.</h3>
             <p class="case-problem">Older adults and caregivers may track reminders, activities and progress across several tools.</p>
             <dl class="pitch">
               <div><dt>What I built</dt><dd>A daily-care prototype with reminders, adaptive activities and optional caregiver notifications via Twilio WhatsApp. It also includes a Gemini information assistant and YOLOv8 object detection on uploaded photos.</dd></div>
@@ -306,27 +327,53 @@
       </div>
     </section>
 
-    <section class="experience container" id="experience" aria-labelledby="experience-title">
-      <h2 id="experience-title">Experience &amp; education</h2>
-      <div class="timeline">
-        <article>
-          <p class="kicker">Feb–Jul 2026</p>
-          <div><h3>Ciprotec</h3><p>Final-year engineering internship in software, AI and computer vision. Turned workflow requirements into ProCardio features and worked on imaging, reporting and functional testing.</p></div>
-        </article>
-        <article>
-          <p class="kicker">Jul–Aug 2025</p>
-          <div><h3>Cheikh Khalifa International University Hospital</h3><p>AI and digital solutions internship covering imaging data preparation, model training and evaluation, result presentation and integration.</p></div>
-        </article>
-        <article>
-          <p class="kicker">Jul 2024</p>
-          <div><h3>UM6SS Biomedical Experimentation Center</h3><p>Technical internship in imaging data processing, 3D reconstruction and prototyping.</p></div>
-        </article>
-        <article>
-          <p class="kicker">2023–2026</p>
-          <div><h3>ESM6ISS – UM6SS</h3><p>State Engineering Degree in Digital Engineering, Casablanca.</p></div>
-        </article>
-      </div>
-    </section>
+    <div class="career container">
+      <section id="experience" aria-labelledby="experience-title">
+        <h2 id="experience-title">Experience</h2>
+        <div class="timeline">
+          <article>
+            <div class="role-header">
+              <h3>Ciprotec</h3>
+              <p class="kicker">Feb–Jul 2026</p>
+            </div>
+            <p class="role-title">Final-year internship in software, AI &amp; computer vision</p>
+            <p class="role-description">Translated cardiology workflow requirements into specifications and designed ProCardio’s application workflows. Prepared imaging data, evaluated and integrated a computer vision module, automated report generation, and ran functional tests.</p>
+            <a class="role-evidence" href="#procardio">See the ProCardio case study <span aria-hidden="true">&uarr;</span></a>
+          </article>
+          <article>
+            <div class="role-header">
+              <h3>Cheikh Khalifa International University Hospital</h3>
+              <p class="kicker">Jul–Aug 2025</p>
+            </div>
+            <p class="role-title">AI &amp; digital solutions internship</p>
+            <p class="role-description">Reviewed hospital information workflows and developed a computer vision application. Prepared imaging data, trained and evaluated models, automated result reporting, and tested the application from a user’s perspective.</p>
+          </article>
+          <article>
+            <div class="role-header">
+              <h3>UM6SS Biomedical Experimentation Center</h3>
+              <p class="kicker">Jul 2024</p>
+            </div>
+            <p class="role-title">3D modeling internship</p>
+            <p class="role-description">Processed imaging data and reconstructed 3D anatomical models for prototyping.</p>
+          </article>
+        </div>
+      </section>
+      <section id="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <div class="education-list">
+          <article>
+            <p class="kicker">2023–2026</p>
+            <h3>State Engineering Degree in Digital Engineering</h3>
+            <p>ESM6ISS – UM6SS, Casablanca</p>
+          </article>
+          <article>
+            <p class="kicker">2021–2023</p>
+            <h3>Preparatory Classes (PSI)</h3>
+            <p>CPGE Mohamed V, Casablanca</p>
+          </article>
+        </div>
+      </section>
+    </div>
 
     <section class="contact" id="contact" aria-labelledby="contact-title">
       <div class="container contact-inner">
