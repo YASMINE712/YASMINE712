@@ -2,11 +2,11 @@
 
 <img align="right" src="assets/portrait.jpg" alt="Portrait of Yasmine Yassine" width="120">
 
-**Digital Health Engineer**
+**AI, Data & Software Engineering**
 
-I’m passionate about how human-centered AI could improve healthcare by reducing routine documentation and giving clinicians more time with patients.
+I build data pipelines, evaluate machine learning models, and integrate them into applications. I’m passionate about how human-centered AI could improve healthcare by making clinical information easier to find and reducing routine documentation, giving clinicians more time with patients.
 
-[Portfolio](https://yasmine712.github.io/YASMINE712/) · [LinkedIn](https://www.linkedin.com/in/yasmine-yassine-21ab61285/) · [Repositories](https://github.com/YASMINE712?tab=repositories)
+[Read more in my portfolio](https://yasmine712.github.io/YASMINE712/) · [LinkedIn](https://www.linkedin.com/in/yasmine-yassine-21ab61285/) · [Repositories](https://github.com/YASMINE712?tab=repositories)
 
 ## Selected public projects
 
