@@ -1,20 +1,12 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="Yasmine Yassine — AI, data, and software engineering" width="100%">
-</p>
+# Yasmine Yassine
 
-<p align="center">
-  <img src="assets/portrait.jpg" alt="Yasmine Yassine" width="160">
-</p>
+<img align="right" src="assets/portrait.jpg" alt="Portrait of Yasmine Yassine" width="120">
 
-<p align="center">
-  <a href="https://yasmine712.github.io/YASMINE712/"><strong>Get to know me and explore my portfolio</strong></a> ·
-  <a href="https://www.linkedin.com/in/yasmine-yassine-21ab61285/">LinkedIn</a> ·
-  <a href="https://github.com/YASMINE712?tab=repositories">Repositories</a>
-</p>
+**Digital Health Engineer**
 
-## Get to know me
+I’m passionate about how human-centered AI could improve healthcare by reducing routine documentation and giving clinicians more time with patients.
 
-I am a recent Digital Health Engineering graduate focused on AI, data, and software engineering. I enjoy turning a concrete workflow into working software: preparing data, training and evaluating a model, then integrating it into an application that people can use.
+[Portfolio](https://yasmine712.github.io/YASMINE712/) · [LinkedIn](https://www.linkedin.com/in/yasmine-yassine-21ab61285/) · [Repositories](https://github.com/YASMINE712?tab=repositories)
 
 ## Selected public projects
 
