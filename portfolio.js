@@ -6,7 +6,7 @@ function applyTheme(theme) {
   const isDark = theme === 'dark';
   document.documentElement.dataset.theme = theme;
   themeButton.textContent = isDark ? 'Light mode' : 'Dark mode';
-  themeColor.content = isDark ? '#191f1b' : '#f7f5ee';
+  themeColor.content = isDark ? '#0e1a30' : '#f5f9ff';
 }
 
 let storedTheme;

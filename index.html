@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Yasmine Yassine's portfolio in AI, data and software engineering. Explore project case studies, technologies, and potential impact.">
-  <meta name="theme-color" content="#f7f5ee">
+  <meta name="theme-color" content="#f5f9ff">
   <title>Yasmine Yassine | AI, Data &amp; Software Engineering</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="portfolio.css?v=2">
-  <script src="portfolio.js?v=2" defer></script>
+  <link rel="stylesheet" href="portfolio.css?v=3">
+  <script src="portfolio.js?v=3" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -66,7 +66,9 @@
             <p>Interventional cardiology teams record information throughout a procedure. When those details sit in different tools or formats, teams have to pull them together again for reporting.</p>
           </div>
           <figure class="project-visual flagship-visual">
-            <img src="assets/projects/procardio-dashboard.png" alt="ProCardio hospital dashboard with activity and report review queues" width="2560" height="1600" loading="lazy">
+            <a class="image-link" href="assets/projects/procardio-dashboard.png" aria-label="Open full-size ProCardio dashboard">
+              <img src="assets/projects/procardio-dashboard.png" alt="ProCardio hospital dashboard with activity and report review queues" width="2560" height="1600" loading="lazy">
+            </a>
             <figcaption>Hospital dashboard with demonstration data</figcaption>
           </figure>
         </div>
@@ -81,6 +83,30 @@
             <p>Reusing structured entries could reduce repeated documentation and make reports easier to review. Shared defaults and hospital-specific settings let the same application adapt to local workflows.</p>
           </div>
         </div>
+
+        <section class="flagship-gallery" id="procardio-gallery" aria-labelledby="procardio-gallery-title">
+          <h4 id="procardio-gallery-title">Product screens &amp; architecture</h4>
+          <div class="flagship-gallery-grid">
+            <figure class="project-visual">
+              <a class="image-link" href="assets/projects/procardio-login.png" aria-label="Open full-size ProCardio login screen">
+                <img src="assets/projects/procardio-login.png" alt="ProCardio hospital sign-in page" width="1943" height="1202" loading="lazy">
+              </a>
+              <figcaption>Hospital login</figcaption>
+            </figure>
+            <figure class="project-visual">
+              <a class="image-link" href="assets/projects/procardio-coronary-editor.png" aria-label="Open full-size ProCardio coronary schema">
+                <img src="assets/projects/procardio-coronary-editor.png" alt="Interactive coronary anatomy editor with a contextual form and seeded demo data" width="2560" height="1600" loading="lazy">
+              </a>
+              <figcaption>Interactive coronary schema with demo data</figcaption>
+            </figure>
+            <figure class="project-visual">
+              <a class="image-link" href="assets/projects/procardio-architecture.svg" aria-label="Open full-size ProCardio architecture diagram">
+                <img src="assets/projects/procardio-architecture.svg" alt="Diagram of the ProCardio React client, Django backend and supporting services" width="1200" height="652" loading="lazy">
+              </a>
+              <figcaption>Application architecture</figcaption>
+            </figure>
+          </div>
+        </section>
 
         <div class="flagship-engineering" aria-label="ProCardio engineering evidence">
           <div>
@@ -104,9 +130,20 @@
 
       <div class="case-grid">
         <article class="case" id="oncosense" aria-labelledby="oncosense-title">
-          <figure class="project-visual">
-            <img class="diagram" src="assets/projects/oncosense-architecture.png" alt="OncoSense diagram showing image preparation, classification, and lesion localization paths" width="1600" height="900" loading="lazy">
-          </figure>
+          <div class="case-gallery" role="group" aria-label="OncoSense gallery">
+            <figure class="project-visual">
+              <a class="image-link" href="assets/projects/oncosense-architecture.png" aria-label="Open full-size OncoSense visual: Vision pipeline architecture">
+                <img src="assets/projects/oncosense-architecture.png" alt="OncoSense diagram showing image preparation, classification, and lesion localization paths" width="1600" height="900" loading="lazy">
+              </a>
+              <figcaption>Vision pipeline architecture</figcaption>
+            </figure>
+            <figure class="project-visual">
+              <a class="image-link" href="assets/projects/oncosense-training-curve.png" aria-label="Open full-size OncoSense visual: Exploratory ResNet50 training curves">
+                <img src="assets/projects/oncosense-training-curve.png" alt="Training loss and accuracy over epochs for one exploratory ResNet50 run" width="640" height="480" loading="lazy">
+              </a>
+              <figcaption>Exploratory ResNet50 training curves</figcaption>
+            </figure>
+          </div>
           <div class="case-body">
             <p class="kicker">OncoSense / Computer vision research</p>
             <h3 id="oncosense-title">Make breast imaging experiments traceable.</h3>
@@ -126,9 +163,20 @@
         </article>
 
         <article class="case" id="medrec-careflow" aria-labelledby="medrec-title">
-          <figure class="project-visual">
-            <img src="assets/projects/medrec-clinician.png" alt="MedRec CareFlow clinician workspace for reviewing check-ins with fictional demo data" width="1440" height="1050" loading="lazy">
-          </figure>
+          <div class="case-gallery" role="group" aria-label="MedRec CareFlow gallery">
+            <figure class="project-visual">
+              <a class="image-link" href="assets/projects/medrec-clinician.png" aria-label="Open full-size MedRec CareFlow visual: Clinician review queue">
+                <img src="assets/projects/medrec-clinician.png" alt="MedRec CareFlow clinician workspace for reviewing check-ins with fictional demo data" width="1440" height="1050" loading="lazy">
+              </a>
+              <figcaption>Clinician review queue</figcaption>
+            </figure>
+            <figure class="project-visual">
+              <a class="image-link" href="assets/projects/medrec-patient.png" aria-label="Open full-size MedRec CareFlow visual: Patient workspace with fictional check-ins">
+                <img src="assets/projects/medrec-patient.png" alt="MedRec CareFlow patient workspace for submitting and tracking fictional check-ins" width="1440" height="1233" loading="lazy">
+              </a>
+              <figcaption>Patient workspace with fictional check-ins</figcaption>
+            </figure>
+          </div>
           <div class="case-body">
             <p class="kicker">MedRec CareFlow / Full-stack and delivery</p>
             <h3 id="medrec-title">Give every patient check-in a review path.</h3>
@@ -148,9 +196,20 @@
         </article>
 
         <article class="case" id="my-health-friend" aria-labelledby="my-health-friend-title">
-          <figure class="project-visual">
-            <img src="assets/projects/my-health-friend-ml.png" alt="My Health Friend activity prediction interface with example inputs" width="1132" height="635" loading="lazy">
-          </figure>
+          <div class="case-gallery" role="group" aria-label="My Health Friend gallery">
+            <figure class="project-visual">
+              <a class="image-link" href="assets/projects/my-health-friend-ml.png" aria-label="Open full-size My Health Friend visual: Activity prediction demo">
+                <img src="assets/projects/my-health-friend-ml.png" alt="My Health Friend activity prediction interface with example inputs" width="1132" height="635" loading="lazy">
+              </a>
+              <figcaption>Activity prediction demo</figcaption>
+            </figure>
+            <figure class="project-visual">
+              <a class="image-link" href="assets/projects/my-health-friend-suggestions.png" aria-label="Open full-size My Health Friend visual: Activity suggestions and feedback">
+                <img src="assets/projects/my-health-friend-suggestions.png" alt="My Health Friend activity suggestions with feedback controls" width="1176" height="549" loading="lazy">
+              </a>
+              <figcaption>Activity suggestions and feedback</figcaption>
+            </figure>
+          </div>
           <div class="case-body">
             <p class="kicker">My Health Friend / Machine learning and data</p>
             <h3 id="my-health-friend-title">Test personalization before rollout.</h3>
@@ -171,9 +230,20 @@
         </article>
 
         <article class="case" id="hayatcare" aria-labelledby="hayatcare-title">
-          <figure class="project-visual">
-            <img class="daily-care" src="assets/projects/hayatcare-daily-care.png" alt="HayatCare demo dashboard with activities, medication reminders and progress tracking" width="1440" height="1060" loading="lazy">
-          </figure>
+          <div class="case-gallery" role="group" aria-label="HayatCare gallery">
+            <figure class="project-visual">
+              <a class="image-link" href="assets/projects/hayatcare-daily-care.png" aria-label="Open full-size HayatCare visual: Daily care dashboard">
+                <img src="assets/projects/hayatcare-daily-care.png" alt="HayatCare demo dashboard with activities, medication reminders and progress tracking" width="1440" height="1060" loading="lazy">
+              </a>
+              <figcaption>Daily care dashboard</figcaption>
+            </figure>
+            <figure class="project-visual">
+              <a class="image-link" href="assets/projects/hayatcare-medication.png" aria-label="Open full-size HayatCare visual: Demo medication schedule and reminders">
+                <img src="assets/projects/hayatcare-medication.png" alt="HayatCare demonstration of a medication schedule with reminder settings" width="1440" height="1060" loading="lazy">
+              </a>
+              <figcaption>Demo medication schedule and reminders</figcaption>
+            </figure>
+          </div>
           <div class="case-body">
             <p class="kicker">HayatCare / Applied AI prototype</p>
             <h3 id="hayatcare-title">Make everyday routines easier to manage.</h3>
@@ -213,6 +283,27 @@
           <a href="#medrec-careflow">See MedRec CareFlow</a>
         </article>
       </div>
+      <div class="profile-details">
+        <section aria-labelledby="strengths-title">
+          <h3 id="strengths-title">How I work</h3>
+          <ul class="strengths">
+            <li><strong>Willingness to learn.</strong> I’m curious about new tools and ask for feedback as I build.</li>
+            <li><strong>Adaptability.</strong> I’m comfortable moving between data, modeling, and application development.</li>
+            <li><strong>Problem-solving.</strong> I break a workflow into steps and test where a change can help.</li>
+            <li><strong>Teamwork.</strong> I share progress, listen to different perspectives, and work toward a shared result.</li>
+          </ul>
+        </section>
+        <section aria-labelledby="languages-title">
+          <h3 id="languages-title">Languages</h3>
+          <dl class="language-list">
+            <div><dt>Arabic</dt><dd>Native</dd></div>
+            <div><dt>French</dt><dd>C2</dd></div>
+            <div><dt>English</dt><dd>C2</dd></div>
+            <div><dt>Turkish</dt><dd>B1</dd></div>
+            <div><dt>German</dt><dd>A2</dd></div>
+          </dl>
+        </section>
+      </div>
     </section>
 
     <section class="experience container" id="experience" aria-labelledby="experience-title">
@@ -243,11 +334,15 @@
           <h2 id="contact-title">Let’s work together.</h2>
           <p>I’m looking for early-career roles in AI, data and software engineering.</p>
         </div>
-        <div class="actions">
-          <a class="button" href="mailto:yasmineyassine45@gmail.com">Email me</a>
-          <a class="quiet-link" href="https://www.linkedin.com/in/yasmine-yassine-21ab61285/">LinkedIn</a>
-          <a class="quiet-link" href="https://github.com/YASMINE712">GitHub</a>
-        </div>
+        <address class="contact-details">
+          <dl>
+            <div><dt>Email</dt><dd><a href="mailto:yasmineyassine45@gmail.com">yasmineyassine45@gmail.com</a></dd></div>
+            <div><dt>Phone</dt><dd><a href="tel:+212634930604">+212 6 34 93 36 04</a></dd></div>
+            <div><dt>Location</dt><dd>Casablanca, Morocco</dd></div>
+            <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/yasmine-yassine-21ab61285/">Yasmine Yassine</a></dd></div>
+            <div><dt>GitHub</dt><dd><a href="https://github.com/YASMINE712">YASMINE712</a></dd></div>
+          </dl>
+        </address>
       </div>
     </section>
   </main>
